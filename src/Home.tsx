@@ -29,17 +29,17 @@ const Home: React.FC = () => {
                        ))}
                     </div>
                 </div>
-                <div className='relative xs:flex xs:flex-col xs:items-center xs:w-[360px] xs:h-[240px] xs:mt-[170px]  xl:w-[700px] xl:h-[230px] xl:mt-[330px] xl:flex mx-auto'>
+                <div className='relative xs:flex xs:flex-col xs:items-center xs:w-[360px] xs:h-[240px] xs:mt-[170px]  xl:w-[500px] xl:h-[230px] xl:mt-[330px] xl:flex mx-auto'>
                     <div className='absolute xs:flex xs:flex-col xs:items-center xs:gap-y-2  xl:flex xl:flex-row xl:items-end'>
                         <div>
-                            <img src={heroImg} className=' xs:w-[100px] xl:w-[160px] xl:h-[200px]' alt="xratz" />
+                            <img src={heroImg} className=' xs:w-[100px] xl:w-[200px]' alt="xratz" />
                         </div>
                         <div>
-                            <img src={heroLogo} className='xs:w-[299px] xs:w-[73px]  xl:w-[500px] xs:w-[121px]' alt="logo" />
+                            <img src={heroLogo} className='xs:w-[280px]  xl:w-[500px]' alt="logo" />
                         </div>
                     </div>
                     <div className='absolute xs:bottom-0 xl:bottom-0 xl:right-0'>
-                        <img src={xlogo} className=' xs:w-[25px] xl:w-[45px]' alt="xlogo" />
+                        <img src={xlogo} className=' xs:w-[25px] xl:w-[40px]' alt="xlogo" />
                     </div>
                 </div >
             </div >

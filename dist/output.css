@@ -712,6 +712,18 @@ body {
     height: 240px;
   }
 
+  .xs\:h-\[230px\] {
+    height: 230px;
+  }
+
+  .xs\:h-\[200px\] {
+    height: 200px;
+  }
+
+  .xs\:h-\[220px\] {
+    height: 220px;
+  }
+
   .xs\:w-\[100px\] {
     width: 100px;
   }
@@ -750,6 +762,10 @@ body {
 
   .xs\:gap-y-2 {
     row-gap: 0.5rem;
+  }
+
+  .xs\:gap-y-4 {
+    row-gap: 1rem;
   }
 
   .xs\:bg-gradient-to-r {
@@ -814,6 +830,10 @@ body {
 
   .xl\:w-\[45px\] {
     width: 45px;
+  }
+
+  .xl\:w-\[121px\] {
+    width: 121px;
   }
 
   .xl\:flex-row {
